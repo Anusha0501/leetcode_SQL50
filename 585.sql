@@ -1,6 +1,5 @@
 #585. Investments in 2016
 
-# Write your MySQL query statement below
 select round(sum(tiv_2016),2) as tiv_2016
 from insurance
 where tiv_2015 in (
